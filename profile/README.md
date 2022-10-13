@@ -1,12 +1,12 @@
 # Ethvault
 
-We are building infrastructure related to deploying and executing transactions from cross-chain multisigs. 
-In other words, yet another account abstraction smart contract wallet company. What sets us apart:
+We are building infrastructure for deploying and executing transactions from a cross-chain multisig.
 
 - Gas-optimized multisig EVM smart contracts, homed on Ethereum L1
-- Free ENS resolution and record editing
-- An API-based multisig transaction tracker and signer
-- A legacy signer that allows your wallet to be recovered in case of catastrophe
+- Free ENS name
+- Ethvault provides 2 signers
+  - Legacy signer that allows your wallet to be recovered in case of catastrophe (signatures are timelocked for 1 year)
+  - Hot signer
 - Transaction relaying and gas abstraction
 - Gas refunds on batched transactions
 
